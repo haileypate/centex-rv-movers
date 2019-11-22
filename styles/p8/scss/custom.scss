@@ -2,9 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap');
 
-Bootstrap starter template styles
+// Bootstrap starter template styles
 body {
   padding-top: 5rem;
+  //background: no-repeat center/80% url("../img/image.png");
+  background: no-repeat url("../../../img/bg_cropped.jpg");
 }
 .starter-template {
   padding: 6rem 1.5rem;
@@ -38,6 +40,10 @@ $danger:        $red !default;
 // $dark:          $gray-800 !default;
 
 // Options
+#marketing div img {
+  max-width: 30%;
+}
+
 // Spacing
 section {
   padding-bottom: 5rem;
@@ -61,7 +67,14 @@ $headings-color:              null !default;
 // Navbar
 // Dropdowns
 // Pagination
+
 // Jumbotron
+div.jumbotron {
+  background-color: rgba(0,0,0,0);
+  color: $white;
+}
+
+
 // Cards
 // Tooltips
 // Form tooltips must come after regular tooltips
