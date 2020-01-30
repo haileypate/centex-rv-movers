@@ -2,17 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap');
 
-// Bootstrap starter template styles
-body {
-  padding-top: 5rem;
-  //background: no-repeat center/80% url("../img/image.png");
-  background: no-repeat url("../../../img/bg_cropped.jpg");
-}
-.starter-template {
-  padding: 6rem 1.5rem;
-  text-align: center;
-}
-
 // Bootstrap Variable Overrides (ordered as found in bootstrap source _variables.scss)
 
 // Color system
@@ -40,15 +29,27 @@ $danger:        $red !default;
 // $dark:          $gray-800 !default;
 
 // Options
-#marketing div img {
-  max-width: 30%;
-}
+
 
 // Spacing
 section {
   padding-bottom: 5rem;
 }
+#marketing {
+  text-align: center;
+ }
+
+#marketing div img {
+  max-width: 30%;
+}
 // Body
+
+body {
+  //background: no-repeat center/80% url("../img/image.png");
+  background: no-repeat url("../../../img/bg_s.png"); // TODO: this will need media query
+}
+
+
 // Links
 // Paragraphs
 // Grid 
@@ -72,8 +73,12 @@ $headings-color:              null !default;
 div.jumbotron {
   background-color: rgba(0,0,0,0);
   color: $white;
+  height: 350px; // TODO: this will need media query
 }
 
+.jumbotron .lead {
+  padding-top: 95px; // TODO: this will need media query
+}
 
 // Cards
 // Tooltips

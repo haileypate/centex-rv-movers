@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap");
-body {
-  padding-top: 5rem;
-  background: no-repeat url("../../../img/bg_cropped.jpg");
+section {
+  padding-bottom: 5rem;
 }
 
-.starter-template {
-  padding: 6rem 1.5rem;
+#marketing {
   text-align: center;
 }
 
@@ -13,13 +11,18 @@ body {
   max-width: 30%;
 }
 
-section {
-  padding-bottom: 5rem;
+body {
+  background: no-repeat url("../../../img/bg_s.png");
 }
 
 div.jumbotron {
   background-color: rgba(0, 0, 0, 0);
   color: #fff;
+  height: 350px;
+}
+
+.jumbotron .lead {
+  padding-top: 95px;
 }
 
 /*!
